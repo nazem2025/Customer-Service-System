@@ -171,8 +171,3 @@ BEGIN
 END //
 DELIMITER ;
 
--- Optional starter accounts
-INSERT INTO users (full_name, email, role)
-VALUES
-('Main Manager', 'manager@local.test', 'manager'),
-('First Employee', 'employee@local.test', 'employee');
